@@ -13,11 +13,14 @@ const rows = [
   createData('Cupcake', 305, 3.7, 67, 4.3),
   createData('Gingerbread', 356, 16.0, 49, 3.9),
 ];
+// array 자료 
+
+
 
 function MainPage() {
   return (
     <Box sx={{ margin: -1 }}>
-      <Container sx={{ textAlign: 'center', mt: 15 }}>
+      <Container sx={{ textAlign: 'center', mt: 10 }}>
         <Box>
           <CloudCircleIcon sx={{ fontSize: 200, color: 'primary.main' }} />
         </Box>
@@ -36,7 +39,6 @@ function MainPage() {
             color: 'primary.main',
           }
         }} />
-
 
         <TableContainer component={Paper} sx={{ mt: 20, borderRadius: 10 }}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
